@@ -1,0 +1,97 @@
+<html>
+<head>
+</head>
+<script>
+function CA()
+{
+str="hello"
+alert("The CA() function return index:-["+str.charAt("3")+"]Character from:-"+str)
+}
+function CC()
+{
+str="hello"
+str2="bhushan"
+alert("The CC() function return index:-[ "+str.concat("bhushan")+"]Character from:-"+str+ str2)
+}
+function lg()
+{
+  str=" HelloHi "
+  str2="Yash"
+  alert("The CA() function return index:-["+str.length+"]Character from:-"+str)
+}
+function IO()
+{
+str="hello"
+alert("The IO() function return index:-["+str.indexOf("e")+"]Character from:-"+str)
+}
+function LIO()
+{
+str="hello"
+alert("The LIO() function return index:-["+str.indexOf("l")+"]Character from:-"+str)
+alert("The LIO() function return index:-["+str.lastIndexOf("l")+"]Character from:-"+str)
+}
+function Search()
+{
+str="hello"
+alert("The Search() function return index:-["+str.search("h")+"]Character from:-"+str)
+}
+function tolowercase()
+{
+str="HELLO"
+alert("The tolowercase() function return index:-["+str.toLowerCase()+"]Character from:-"+str)
+}
+function touppercase()
+{
+str="hello"
+alert("The touppercase() function return index:-["+str.toUpperCase()+"]Character from:-"+str)
+}
+function slice()
+{
+str="hello"
+alert("The slice() function return index:-["+str.slice(0,2)+"]Character from:-"+str)
+}
+function substring()
+{
+str="hello"
+alert("The substring() function return index"+str.substring(1,3)+"Character from:-"+str)
+}
+function substr()
+{
+str="hello"
+alert("The substr() function return index"+str.substr(1,4)+"Character from:-"+str)
+}
+function replace()
+{
+str="hellohi"
+alert("The replace() function return index"+str.replace("hi","bhushan")+"Character from:-"+str)
+}
+</script>
+<body bgcolor=#ff0066>
+<h2 align=center><u>String Function In Javascript</u></h2>
+<form>
+<pre align=center>
+<input type="button" id="txt" onclick="CA()" value="CharAt" >   
+    
+<input type="button" id="txt" onclick="CC()" value="Concat">
+
+<input type="button" id="txt" onclick="lg()" value="Length">   
+    
+<input type="button" id="txt" onclick="IO()" value="Intextof">
+
+<input type="button" id="txt" onclick="LIO()" value="LastIntextOf">   
+ 
+<input type="button" id="txt" onclick="Search()" value="Search">
+
+<input type="button" id="txt" onclick="tolowercase()" value="tolowerchase">
+
+<input type="button" id="txt" onclick="touppercase()" value="toUppercase">
+
+<input type="button" id="txt" onclick="slice()" value="slice">
+
+<input type="button" id="txt" onclick="substring()" value="substring">
+
+<input type="button" id="txt" onclick="substr()" value="sunstr">
+
+<input type="button" id="txt" onclick="replace()" value="replace">
+</body>
+</html>
